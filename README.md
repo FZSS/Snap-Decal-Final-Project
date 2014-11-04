@@ -1,25 +1,9 @@
+This fork is for Snap Decal fall 2014 Final Project:
 
-Snap! Build Your Own Blocks
+Snap to Python Convertor by Joel and Kevin.
 
-http://snap.berkeley.edu
+We would be implementing a new c-ring block(like the warp block) that converts Snap! code within itself into Python code. 
 
-a visual, blocks based programming language
-inspired by Scratch
+The purpose of this project is to ease the transition from Snap! to Python for CS10 students. 
 
-written by Jens Mönig and Brian Harvey
-jens@moenig.org, bh@cs.berkeley.edu
-
-Copyright (C) 2014 by Jens Mönig and Brian Harvey
-
-Snap! is free software: you can redistribute it and/or modify
-it under the terms of the GNU Affero General Public License as
-published by the Free Software Foundation, either version 3 of
-the License, or (at your option) any later version.
-
-This program is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-GNU Affero General Public License for more details.
-
-You should have received a copy of the GNU Affero General Public License
-along with this program.  If not, see <http://www.gnu.org/licenses/>.
+At this point we plant to only provide support for control blocks, operator blocks and variables/lists, as well as the say blocks (as "print" in Python). 
