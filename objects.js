@@ -1173,6 +1173,12 @@ SpriteMorph.prototype.initBlocks = function () {
             type: 'reporter',
             category: 'other',
             spec: 'code of %cmdRing'
+        },
+
+        toPython: {
+            type: 'command',
+            category: 'other',
+            spec: 'toPython %c'
         }
     };
 };
@@ -1823,6 +1829,7 @@ SpriteMorph.prototype.blockTemplates = function (category) {
         blocks.push('-');
         blocks.push(block('doReport'));
         blocks.push('-');
+        blocks.push(block('toPython'));
     /*
     // old STOP variants, migrated to a newer version, now redundant
         blocks.push(block('doStopBlock'));
