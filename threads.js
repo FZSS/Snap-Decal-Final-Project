@@ -460,6 +460,7 @@ Process.prototype.evaluateContext = function () {
 };
 
 Process.prototype.evaluateBlock = function (block, argCount) {
+
     // check for special forms
     if (contains(['reportOr', 'reportAnd'], block.selector)) {
         return this[block.selector](block);

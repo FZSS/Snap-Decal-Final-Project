@@ -2192,8 +2192,14 @@ BlockMorph.prototype.userMenu = function () {
             'mapToCode'
         );
     }
+    menu.addLine();
+    menu.addItem("convert to Python", "convertToPython");
     return menu;
 };
+
+BlockMorph.prototype.convertToPython = function() {
+    convertSnapToPython(this.topBlock());
+}
 
 BlockMorph.prototype.developersMenu = function () {
     var menu = BlockMorph.uber.developersMenu.call(this);
